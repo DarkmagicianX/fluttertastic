@@ -1,0 +1,18 @@
+import 'package:flutter/material.dart';
+
+class AuthScreen extends StatelessWidget {
+const AuthScreen ({Key? key}) : super(key: key);
+
+
+@override
+Widget build (BuildContext context) { 
+// It provide us screen height and width
+
+final_size = MediaQuery.of(context).size;
+return Scaffold (
+body:Stack (
+children: []
+), //Stack
+); //Scaffold
+}
+}
